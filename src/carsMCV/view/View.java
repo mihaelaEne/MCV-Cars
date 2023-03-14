@@ -15,6 +15,8 @@ public class View {
         System.out.println("Apasati tasta 1 pentru a vedea lista de masini");
         System.out.println("Apasati tasta 2 pentru a adauga o masina");
         System.out.println("Apasati tasta 3 pentru a sterge o masina");
+        System.out.println("Apasati tasta 4 pentru a da update la o masina");
+
 
     }
 
@@ -54,7 +56,7 @@ public class View {
         System.out.println("Introduceti modelul: ");
         String model=scanner.nextLine();
         System.out.println("Introduceti initiala tipul de combustibil: ");
-         char fuel=;
+         char fuel=scanner.nextLine().charAt(0);
         System.out.println("Introduceti seria : ");
         int serie=Integer.parseInt(scanner.nextLine());
         System.out.println("Introduceti true,daca masina este electrica si false, daca masina nu este electrica : ");
